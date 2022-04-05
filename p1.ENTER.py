@@ -8,7 +8,7 @@ while folytatja:
   bekeres = int(input("Kérek egy számot\t"))
   lista.append(bekeres)
   print(lista)
-  if bekeres == "":
+  if bekeres == "":ENTER
     folytatja = False
 
 print(f"lista elemei: {lista}")
