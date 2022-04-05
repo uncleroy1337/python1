@@ -1,4 +1,8 @@
-''' A program kérjen be két szót a felhasználótól, majd írja ki, hogy melyik a hosszabb illetve azt is ha a két szó egyenlő! '''
+''' 
+A program kérjen be két szót a felhasználótól, majd írja ki, 
+hogy melyik a hosszabb illetve azt is ha a két szó egyenlő! 
+
+'''
 
 #megoldas
 
