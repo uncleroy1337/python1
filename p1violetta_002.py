@@ -1,5 +1,9 @@
-''' Készíts egy programot, amely [1;10] intervallumon generál 5 darab véletlen egész számot és ezeket tárolja el egy listában! 
-    A program számolja össze, és képernyőre írja ki a listában tárolt páros számok számát, valamint a lista elemeit! '''
+''' 
+Készíts egy programot, amely [1;10] intervallumon generál 5 darab véletlen egész számot 
+és ezeket tárolja el egy listában! A program számolja össze és írja ki a képernyőre a 
+listában tárolt páros számok számát, valamint a lista elemeit! 
+
+'''
 
 #megoldás
 
@@ -9,6 +13,6 @@ lista = [random.randint(1,10) for i in range(5)]
 
 paroslista = [i for i in lista if i % 2 == 0]
 
-print(f"A páros számok száma:{len(paroslista)}")
 print(lista)
+print(f"A páros számok száma:{len(paroslista)}")
 print(paroslista)
