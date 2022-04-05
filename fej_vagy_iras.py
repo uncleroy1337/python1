@@ -15,4 +15,4 @@ if valasztas == beker:
   print("Nyertél!!")
 
 else:
-  print("Próbáld újra!")
+  print("Nem nyertél!")
