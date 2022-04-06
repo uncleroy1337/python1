@@ -3,9 +3,9 @@
  ##A program egyetlen felhasználó (sis) jelszavát (1234) ismeri, csak ezt a párost fogadja el helyesként. 
  ##Mind a sikertelen, mind a sikeres bejelentkezési kísérletekről üzenetet ír a képernyőre.
 
-felhasznalonev = input('Kerem a nevet: ')
-password = input('Kerem a jelszot: ')
+felhasznalonev = input('Kérem a felhasználó nevét: ')
+password = input('Kérem a jelszót: ')
 if felhasznalonev == "sis" and password == "1234":
   print("Üdvözlöm!")
 else:
-  print('Sikertelen bejelentkezes')
+  print('Sikertelen bejelentkezés')
