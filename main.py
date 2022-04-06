@@ -17,16 +17,16 @@ A két szám egyenlő
 ------------------
 '''
 
-elso_szam = int(input("Kérem az első számot!"))
-masodik_szam = int(input("Kérem a második számot!"))
+elso_szam = int(input("Adj meg egy számot! "))
+masodik_szam = int(input("Adj meg egy másik számot! "))
 
 while True:
   if elso_szam > masodik_szam:
-    print("Nagyobb a ", elso_szam, ","" mint a(z) ", masodik_szam)
+    print(f"A nagyobb érték: {elso_szam}")
     break
   elif elso_szam < masodik_szam:
-    print("Nagyobb a ", masodik_szam, ",", "mint a(z)", elso_szam)
+    print(f"A nagyobb érték: {masodik_szam}")
     break
   elif elso_szam == masodik_szam:
-    print("A két szám egyenlő")
+    print("A két szám egyenlő.")
     break
