@@ -6,8 +6,6 @@ A program a pénzfeldobást modellezi. Kérdezze meg a felhasználótól a vála
 import random
 lista = ["fej", "írás"]
 valasztas = random.choice(lista)
-print(valasztas)
-
 
 beker = input("Fej vagy írás? ")
 
