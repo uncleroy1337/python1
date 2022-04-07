@@ -4,6 +4,13 @@ Készíts egy programot, amely a felhasználótól bekér egy egész számot, ma
 - pozitív páros vagy
 - negatív páratlan.
 Az eredményről tájékoztatja a felhasználót.
+Pld:
+------------------------
+Kérek egy számot: 2
+Pozitív páros.
+------------------------
+Kérek egy számot: -1
+Negatív páratlan.
 '''
 
 #megoldás:
