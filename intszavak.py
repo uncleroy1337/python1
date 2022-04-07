@@ -1,7 +1,9 @@
 """
-írj egy programot, ami: bekér egy számot (int), majd egy tetszőlesges karakterlácot (string). Ezt követően kiírja a karakterláncot csupa nagybetüvel, egymás mellé, szóközökkel elválasztva annyiszor, amennyiv a bekért egész szám volt!"""
+írj egy programot, ami: bekér egy számot (int), majd egy tetszőlesges karakterlácot (string). 
+Ezt követően kiírja a karakterláncot csupa nagybetüvel, egymás mellé, szóközökkel elválasztva annyiszor, amennyiv a bekért egész szám volt!"""
 
-"""Minta: (output)
+"""
+Minta: (output)
 
 1.feladat:
 írj be egy egész számot: 12
@@ -16,5 +18,5 @@ print("1.feladat:")
 bekeres = int(input("írj be egy egész számot: "))
 bekeres2 = input("írj be egy tetszőleges szöveget: ")
 bekeres2 = bekeres2.upper()
-for _ in range(bekeres):
+for i in range(bekeres):
   print(bekeres2, end=" ")
