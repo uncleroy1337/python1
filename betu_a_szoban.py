@@ -16,7 +16,6 @@ például gyűjtheti és kiírhatja a jó és a rossz tippeket (betűket).
 szo = "python"
 print(szo, "\n")
 
-l = []
 jo_lista = []
 rossz_lista = []
 
@@ -25,7 +24,6 @@ while True:
   if betu == "":
     break
   else:
-    l.append(betu)
     if betu in szo:
       jo_lista.append(betu)
     else:
