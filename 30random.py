@@ -1,5 +1,6 @@
 Írj egy programot, amely [1;12] intervallumon állít elő 30 darab véletlenszámot! 
-A képernyőre kizárólag csak az 5-el oszthatóakat írja ki, majd jelenítse meg az összes véletlen generált számot és a végén informálja a felhasználót arról is, hány darab ilyen szám volt.
+A képernyőre kizárólag csak az 5-el oszthatóakat írja ki, majd jelenítse meg az összes véletlen
+generált számot és a végén informálja a felhasználót arról is, hány darab ilyen szám volt.
 
 
 from random import randint
